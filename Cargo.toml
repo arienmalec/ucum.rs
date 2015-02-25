@@ -1,0 +1,8 @@
+[package]
+
+name = "ucum"
+version = "0.0.1"
+authors = ["Josh Mandel <joshua.mandel@childrens.harvard.edu>"]
+
+[dependencies.xml-rs]
+version = "*"
