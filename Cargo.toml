@@ -6,3 +6,15 @@ authors = ["Josh Mandel <joshua.mandel@childrens.harvard.edu>"]
 
 [dependencies.xml-rs]
 version = "*"
+
+[dependencies.itertools]
+version = "*"
+
+[dependencies.regex_macros]
+version = "*"
+
+[dependencies.regex]
+version = "*"
+
+[dependencies.num]
+version = "*"
