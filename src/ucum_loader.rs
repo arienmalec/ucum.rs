@@ -1,12 +1,13 @@
+use xml::reader::EventReader;
+use xml::reader::events::*;
+use xml::name::OwnedName;
+use xml::attribute::*;
+
 use num::bigint::BigInt;
 use num::rational::BigRational;
 use num::traits::One;
 use core::num::FromPrimitive;
 
-use xml::reader::EventReader;
-use xml::reader::events::*;
-use xml::name::OwnedName;
-use xml::attribute::*;
 
 use std::old_io::{File, BufferedReader};
 
